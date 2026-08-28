@@ -1,12 +1,17 @@
-import random
+#print("Enter your number:")
+#number = int(input())
 
-secret_number = random.randint(1, 10)
+#if number % 20 == 0:
+    #print("Divisible by 20")
+#else:
+    #print("Not divisible by 20")
+number = int(input("Enter your number: "))
 
-guess = int(input("Guess a number between 1 and 10: "))
-
-if guess == secret_number:
-    print("🎉 You guessed it!")
+if number % 2 != 0:
+    print("Odd")
 else:
-    print("❌ Wrong guess!")
-    print("The number was:", secret_number)
-4
+    print("Even")
+
+
+
+    
